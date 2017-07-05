@@ -1,0 +1,2 @@
+python quoteofday.py
+PAUSE

@@ -1,0 +1,133 @@
+body{
+ background-image: url(background.png);
+ font-size: 20px;
+ font-family: Verdana;
+ margin: 0px;
+}
+
+#main{
+	transition: 0.5s;
+}
+
+footer {
+	position: absolute;
+	float: right;
+	font-style: italic;
+	font-size: 15px;
+	font-family: "Georgia";
+	bottom:0;
+    right:0;
+
+}
+
+#navMenu{
+	display: block;
+	position: fixed;
+	width: 0;
+	z-index: 1;
+	background-image: url("menubackground.png");
+	overflow-x: hidden;
+	transition: 0.5s;
+	height: 100%;
+	left: -3px;
+	top: 0;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 3px;
+	border-color: #4CAF52;
+	color: black;
+	font-family: "Times New Roman";
+}
+
+
+.navButton {
+	background-color: #4CAF52;
+	color: #FFFFFF;
+	margin:3px;
+	display: inline-block;
+	padding:5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: "Open Sans";
+	border-style: double;
+	border-width: 3px;
+	left:0px;
+}
+
+.navButton:hover{
+	box-shadow: 2px 4px 20px grey;
+	cursor: pointer;
+}
+
+.Button {
+	top:0;
+	right: 0;
+	margin:5px;
+	display: inline-block;
+	position: absolute;
+}
+.Button:hover {
+	cursor: pointer; 
+	box-shadow: 0px 2px 30px grey;
+	border-radius: 100px;
+}
+
+
+#quoteWrapper {
+	margin-top: 20px;
+	background-color: white;
+	display: none;
+	width:100%;
+	border-width: 0px;
+	border-bottom-width: 3px;
+	border-top-width: 3px;
+	border-style: solid;
+	border-color: #4CAF52;
+	top:0px;
+}
+#quote {
+	/*background-color: #F2F2F2;*/
+	width:100%;
+	margin:0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: static;
+	overflow: hidden;
+	border-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: #000000;
+	box-shadow: 2px 2px 20px #196470;
+	background-image: url(QuoteBackground.png);
+}
+#quoteText {
+	position: relative;
+	left: 0px;
+	text-align: center;
+	font-size: 30px;
+	font-style: normal;
+	left: 0px;
+	width: 100%;
+	font-family: "Merriweather";
+}
+#quoteAuthor {
+	font-weight: normal;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	font-family: "Merriweather";
+}
+
+
+.wrapper{
+	margin: 0.5em;
+	background-color: #7FFF24;
+	box-shadow: 0px 5px 10px #196470;
+	text-align: left;
+	padding: 2em;
+	display: inline-block;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
